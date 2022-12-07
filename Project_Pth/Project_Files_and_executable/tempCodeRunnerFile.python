@@ -1,0 +1,4 @@
+from re import *
+txt = "The rain in Spain"
+x = sub("[^r][^a][^i][^n]", "9", txt)
+print(x)
